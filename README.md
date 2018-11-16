@@ -38,6 +38,9 @@ pip install -r requirements.txt
 Follow [these instructions](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04) to run PostgreSQL database.
 PostgreSQL provides much better searching, indexing and scaliblity options.
 
+
+testing direct commit without cloning
+
 Configure your Database settings in settings.py to run the database. Assign DEBUG False and configure the Apache/Nginx to host the django app, PostgreSQL database and required static files.
 
 Finally run
